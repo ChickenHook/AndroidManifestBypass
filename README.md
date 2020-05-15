@@ -8,7 +8,7 @@ Project for bypass requirement for register Android components like Activities i
 
 |Component type| Status | Limitations |
 |----|----|----|
-| Activity | OK | * Theme of Application will be used (you can change it programmatically) <br> * No Manifest configuration because there is no corresponding manifest entry. <br>     You can have launch options via the Intent flags given to startActivity(...) <br>  * Cannot be accessed externally|
+| Activity | OK | * Theme of Application will be used (you can change it programmatically) <br> * No Manifest configuration because there is no corresponding manifest entry. <br><tr>You can have launch options via the Intent flags given to startActivity(...) <br>  * Cannot be accessed externally|
 | ContentProvider | WIP | * Cannot be accessed externally|
 | Services | WIP |  * Cannot be accessed externally|
 | ... | |
