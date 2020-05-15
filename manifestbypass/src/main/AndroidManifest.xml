@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="org.chickenhook.manifestbypass">
+
+    <application>
+        <provider
+            android:name=".ActivtiyProvider"
+            android:authorities="${applicationId}.activityprovider"
+            android:enabled="true"
+            android:exported="false"></provider>
+
+
+        <activity android:name=".Trampoline" />
+    </application>
+
+</manifest>
