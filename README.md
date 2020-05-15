@@ -13,6 +13,8 @@ Project for bypass requirement for register Android components like Activities i
 | Services | WIP |  * Cannot be accessed externally|
 | ... | |
 
+Feel free to submit feature requests!
+
 ## Integration
 Just include the maven repository
 
